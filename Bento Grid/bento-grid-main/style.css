@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 90vh;
+  padding-top: 50px;
+}
+
+.cards {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 416px 416px 416px;
+  place-items: center;
+  align-items: start;
+  column-gap: 22px;
+}
+
+.first-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #faeee2;
+  font-size: 32px;
+  width: 230px;
+  height: 390px;
+  border-radius: 8px;
+  gap: 18px;
+}
+
+.first-card p {
+  width: 200px;
+  margin-left: 34px;
+}
+
+.first-card span {
+  color: #7651dd;
+}
+
+.create-post-image {
+  width: 185px;
+}
+
+.second-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  height: 270px;
+  background-color: #7651dd;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  grid-column: span 2;
+}
+
+.first-paragraph {
+  font-size: 42px;
+  text-align: center;
+}
+
+.second-paragraph {
+  margin-top: 8px;
+}
+
+.second-card span {
+  color: #ffcd6a;
+}
+
+.five-stars {
+  width: 160px;
+  margin-top: 8px;
+}
+
+.third-card {
+  width: 220px;
+  height: 520px;
+  background-color: #dcd1fc;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.third-card .first-paragraph {
+  font-size: 26px;
+  text-align: left;
+  width: 190px;
+  margin-left: 27px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+.third-card .second-paragraph {
+  width: 160px;
+  margin-bottom: 35px;
+}
+
+.schedule-image {
+  width: 300px;
+  position: absolute;
+  right: -110px;
+  top: 120px;
+}
+
+.fourth-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ffcc69;
+  font-size: 32px;
+  width: 230px;
+  height: 390px;
+  border-radius: 8px;
+  gap: 20px;
+}
+
+.fourth-card p {
+  width: 180px;
+}
+
+.fourth-card img {
+  width: 200px;
+  margin-left: 15px;
+}
